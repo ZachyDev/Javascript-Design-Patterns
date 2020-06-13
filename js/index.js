@@ -7,7 +7,7 @@
 // users.name = 'hello'
 // console.log(users.name)
 
-const users = ['zachy','finna','doroh'];
+const users = ['zachy','finna','doroh']
 Object.defineProperty(Array.prototype,'last',{get: function() {
     return this[this.length-1]
 }})
